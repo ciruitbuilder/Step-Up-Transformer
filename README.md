@@ -16,6 +16,6 @@ Inserted the primary over secondary coil(with small distance bwtween primary and
 
 <img width="3060" height="4080" alt="20260520_110931" src="https://github.com/user-attachments/assets/d3d70238-2fa7-4226-bb0a-90794ce00673" />
 
-Soldered the primary and secondary coils to the headerpins.
+Soldered the secondary coil and tied primary coil terminals to the headerpins after trimming away enamel from its ends.
 
 <img width="4080" height="3060" alt="20260520_135605" src="https://github.com/user-attachments/assets/accdee19-d624-4ebd-a465-f1264c3c3f8b" />

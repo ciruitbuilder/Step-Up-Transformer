@@ -23,7 +23,7 @@ Soldered the secondary coil and tied primary coil terminals to the headerpins af
 
 LIMITATIONS OF THIS MODEL:
 
-1.Flux loss due to low permittivity of air core
+1.Flux loss due to low permeablity of air core
 
 2.Less number of turns in primary, creating a short which may heat up and damage the power source 
 

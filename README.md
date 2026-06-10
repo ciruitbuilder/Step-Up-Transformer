@@ -22,11 +22,22 @@ Soldered the secondary coil and tied primary coil terminals to the headerpins af
 
 TESTING(pins 1,2,3,4 of header pins of transformer are named from left to right) :
 
-Usually a 1.5v battery cannot deliver enough potential to make an LED glow.The 1.5v baterry's negative termainal is connected to one terminal of the primary winding throuh a copper wire(pin 1), and another terminal ot the primary winding is connected to a copper wire(pin 4). The positive terminal of the battery is connected to a copper wire as well. A green LED which requres voltages more than 1.5v to glow is connected accros the secondary coil's winding(pins 2,3 in transformer)
+Usually a 1.5v battery cannot deliver enough potential to make an LED glow.The 1.5v cell's negative termainal is connected to one terminal of the primary winding throuh a copper wire(pin 1), and another terminal ot the primary winding is connected to a copper wire(pin 4). The positive terminal of the cell is connected to a copper wire as well. A green LED which requres voltages more than 1.5v to glow is connected accros the secondary coil's winding(pins 2,3 in transformer)
 
 
 https://github.com/user-attachments/assets/112dfc1c-1ccd-40bc-8623-510713209332
 
+We are rubbing the wire from positive terminal of the cell on the wire from pin 4. This creates large number of varying voltage spikes accross the primary of the transformer, since a changing flux is required in the transformer for induction of emf in secondary coil, hence the changing voltage creates a varying current(due to small internal resistance of wire). The varying currents generated inside the primary coil creates varying flux and hence induces a current in secondary :
+
+       Vsecondary = dΦ/dt (Φ ---> flux)
+      
+Since the number of turns in secondary is 4 times that of primary, and:
+
+             Vsecondary/Vprimary = Nsecondary/Nprimary (for ideal transformer)
+             
+             Vsecondary = 4*Vprimary  (for ideal transformer)
+             
+Though the induced voltage in secondary is not exactly 4 times the primary 1.5v(accounting for losses) , the voltage is higher than whats necessary for the LED to glow, Hence showing that the transformer successfully steps up input voltage. 
 
 LIMITATIONS OF THIS MODEL:
 

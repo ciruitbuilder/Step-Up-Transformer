@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/112dfc1c-1ccd-40bc-8623-510713209332
 
 We are rubbing the wire from positive terminal of the cell on the wire from pin 4. This creates large number of varying voltage spikes accross the primary of the transformer, since a changing flux is required in the transformer for induction of emf in secondary coil, hence the changing voltage creates a varying current(due to small internal resistance of wire). The varying currents generated inside the primary coil creates varying flux and hence induces a current in secondary :
 
-       Vsecondary = dΦ/dt (Φ ---> flux)
+       Vsecondary = dΦ/dt (Φ ---> magnetic flux)
       
 Since the number of turns in secondary is 4 times that of primary, and:
 

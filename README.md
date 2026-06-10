@@ -20,6 +20,13 @@ Soldered the secondary coil and tied primary coil terminals to the headerpins af
 
 <img width="4080" height="3060" alt="20260520_135605" src="https://github.com/user-attachments/assets/accdee19-d624-4ebd-a465-f1264c3c3f8b" />
 
+TESTING(pins 1,2,3,4 of header pins of transformer are named from left to right) :
+
+Usually a 1.5v battery cannot deliver enough potential to make an LED glow.The 1.5v baterry's negative termainal is connected to one terminal of the primary winding throuh a copper wire(pin 1), and another terminal ot the primary winding is connected to a copper wire(pin 4). The positive terminal of the battery is connected to a copper wire as well. A green LED which requres voltages more than 1.5v to glow is connected accros the secondary coil's winding(pins 2,3 in transformer)
+
+
+https://github.com/user-attachments/assets/112dfc1c-1ccd-40bc-8623-510713209332
+
 
 LIMITATIONS OF THIS MODEL:
 
